@@ -1,0 +1,6 @@
+import calendar
+print ("请输入年份，确认后再输入月份")
+a = int(input())
+b = int(input())
+cal = calendar.month(a,b)
+print (cal)

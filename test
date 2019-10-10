@@ -1,0 +1,15 @@
+print("请输入一个算式，目前仅支持加减乘除的单次运算")
+print("选择运算：1是相加，2是相减，3是相乘，4是相除")
+choice = input()
+num1 = int(input("输入第一个数字: "))
+num2 = int(input("输入第二个数字: "))
+if choice == '1':
+    print(num1, "+", num2, "=", (num1+num2))
+elif choice == '2':
+    print(num1, "-", num2, "=", (num1-num2))
+elif choice == '3':
+    print(num1, "*", num2, "=", (num1*num2))
+elif choice == '4':
+    print(num1, "/", num2, "=", (num1/num2))
+else:
+    print("非法输入")
